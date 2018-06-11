@@ -16,7 +16,7 @@ public class challenge363{
     Scanner in = new Scanner(System.in);
     System.out.println("Insert a word: ");
     String s = in.nextLine();
-    if (s.length()>0)
+    if (s.length() > 0)
       System.out.println("check(" + s + ") => " + check(s.toLowerCase()));
   }
 }
